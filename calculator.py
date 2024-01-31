@@ -20,7 +20,4 @@ def solveD1(St, K, r, t,o):
 def solveD2(d1, t, o):
     return d1 - o*np.sqrt(t)
 
-print(calculatePrice(100,100,0.1,1,0.2))
-print(paritySolver(calculatePrice(100,100,0.1,1,0.2), 100,100,0.1,1))
-
 
